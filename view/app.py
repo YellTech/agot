@@ -19,6 +19,8 @@ class App(ctk.CTk):
         # Configuração da janela
         self.geometry("1280x720")  # Tamanho inicial da janela
         self.title("AGOT")
+        ctk.set_appearance_mode("dark")
+        ctk.set_default_color_theme("blue")
 
         # Configurando a grade para permitir expansão proporcional
         self.grid_rowconfigure(0, weight=1)
